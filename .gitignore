@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+ride_safety_report.txt
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Large model files (uncomment if yolov8n.pt is too large)
+# yolov8n.pt
+
+# Temporary files
+*.tmp
+*.log
+

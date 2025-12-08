@@ -1,0 +1,47 @@
+DHAKA-RIDE SAFETY REPORT
+========================
+CRITICAL EVENTS:
+----------------------------------------
+[Frame 270] DANGER: reactive_swerve critical_pinch_point heavy_vehicle_conflict CRITICAL_LEGUNA_STOP WRONG_WAY_HAZARD ACTIVE_CROSSING_RISK STABLE_LANE
+[Frame 555] DANGER: reactive_swerve AGGRESSIVE_PINCH_ENTRY critical_pinch_point cng_proximity heavy_vehicle_conflict tailgating_critical WRONG_WAY_HAZARD AGGRESSIVE_GAP_SHOOTING STABLE_LANE AGGRESSIVE_PINCH_ENTRY
+[Frame 1695] DANGER: reactive_swerve critical_pinch_point cng_proximity heavy_vehicle_conflict tailgating_critical CRITICAL_LEGUNA_STOP WRONG_WAY_HAZARD ACTIVE_CROSSING_RISK AGGRESSIVE_GAP_SHOOTING BUS_BLOCKING_LANE STABLE_LANE
+[Frame 1710] DANGER: reactive_swerve critical_pinch_point cng_proximity heavy_vehicle_conflict tailgating_critical STABLE_LANE
+[Frame 1785] DANGER: reactive_swerve STABLE_LANE
+
+
+RIDER BEHAVIOR PROFILE
+======================
+STYLE: PROACTIVE (Safe)
+Analysis: Rider maintains smooth lane discipline and anticipates hazards.
+Recommendation: Maintain current riding discipline.
+
+
+RISK SUMMARY
+============
+Total Samples Analyzed: 120
+Safe Frames: 27
+Critical Events: 5
+
+BREAKDOWN:
+  Reactive Swerves: 5
+  Pinch Points: 4
+  Distracted Riding: 0
+  Heavy Vehicle Conflicts: 4
+  Tailgating: 3
+  Leguna Emergency Stops: 2
+  Wrong-Way Vehicles: 3
+  Jaywalker Crossings: 5
+  Blind Spot Loitering: 0
+  Red Light Violations: 0
+  Gap Shooting: 2
+  Speed Breaker Hits: 0
+  Bus Blockades: 1
+  Weaving Events: 0
+  Slalom Maneuvers: 0
+  Aggressive Pinch Entries: 1
+
+
+FINAL VERDICT
+=============
+RIDE STATUS: SAFE
+REASON: Excellent defensive riding. Minimal hazards detected.
