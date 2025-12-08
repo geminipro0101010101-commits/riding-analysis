@@ -1,4 +1,13 @@
-import cv2
+# Use opencv-python-headless for cloud deployments (no GUI dependencies)
+# Falls back gracefully if regular opencv-python is installed
+try:
+    import cv2
+except ImportError as e:
+    raise ImportError(
+        "OpenCV not found. For cloud deployments, install with: "
+        "pip install opencv-python-headless"
+    ) from e
+
 import numpy as np
 from ultralytics import YOLO
 import os
